@@ -1,0 +1,83 @@
+
+
+body {
+    background-color: #171717;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+    background-color: #DA0037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.cuadrado {
+    margin: 20px 20px;
+    background-color: #444444;
+    padding: 5px 10px 10px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.cuadrado img {
+    width: 32px;
+}
+.cuadrado__titulo {
+    font-size: 18px;
+}
+.cuadrado__input{
+    padding-bottom: 10px;
+}
+.triangulo {
+    margin: 20px 20px;
+    background-color: #444444;
+    padding: 5px 10px 10px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.triangulo img {
+    width: 32px;
+}
+.triangulo__titulo {
+    font-size: 18px;
+    
+}
+.triangulo__input{
+    padding-bottom: 10px;
+}
+.triangulo__input--lado {
+    padding-bottom: 10px;
+}
+.circulo {
+    margin: 20px 20px;
+    background-color: #444444;
+    padding: 5px 10px 10px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.circulo img {
+    width: 32px;
+}
+.circulo__titulo {
+    font-size: 18px;
+    
+}
+.circulo__input{
+    padding-bottom: 10px;
+}

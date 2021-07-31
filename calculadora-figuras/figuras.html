@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Figuras geométricas</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">
+            Calculadora de figuras geométricas
+        </h1>
+    </header>
+    
+    <section class="cuadrado">
+        <img src="./assets/square-outline-16.png" alt="cuadrado">
+        <h2 class="cuadrado__titulo">Cuadrado</h2>
+
+        <form>
+            <div class="cuadrado__input">
+                <label for="InputCuadrado">
+                    Escribe cuánto mide cada lado de tu cuadrado
+                </label>
+                <input id="InputCuadrado" type="number" />
+            </div>
+            
+            <div class="cuadrado__buttons">
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button> 
+            </div>
+            
+        </form>
+
+    </section>
+
+    <section class="triangulo">
+        <img src="./assets/triangle-outline-16.png" alt="triángulo">
+        <h3 class="tringulo__titulo">Triángulo isósceles</h3>
+
+        <form>
+            <div class="triangulo__input">
+                <div class="triangulo__input--lado">
+                    <label for="InputLadoTriangulo">
+                        Escribe cuánto mide cada lado de tu triángulo
+                    </label>
+                    <input id="InputLadoTriangulo" type="number" />
+                </div>
+
+                <div class="triangulo__input--base">
+                    <label for="InputBaseTriangulo">
+                        Escribe cuánto mide la base de tu triángulo
+                    </label>
+                    <input id="InputBaseTriangulo" type="number" />
+                </div>
+            </div>
+
+            <div class="triangulo_Buttons">
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+                    Calcular el perímetro
+                </button>
+                <button type="button" onclick="calcularAreaTriangulo()">
+                    Calcular el área
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <section class="circulo">
+        <img src="./assets/circle-outline-16.png" alt="círculo">
+        <h4 class="circulo__titulo">Círculo</h4>
+
+        <form>
+            <div class="circulo__input">
+                <label for="InputRadioCirculo">
+                    Escribe cuánto mide el radio de tu círculo
+                </label>
+                <input id="InputRadioCirculo" type="number" />
+            </div>
+
+            <div class="circulo__buttons">
+                <button type="button" onclick="calcularDiametroCirculo()">
+                    Calcular el diámetro
+                </button>
+                <button type="button" onclick="calcularCircunferenciaCirculo()">
+                    Calcular la circunferencia
+                </button>
+                <button type="button" onclick="calcularAreaCirculo()">
+                    Calcular el área
+                </button>
+            </div>
+        </form>
+    </section>
+    
+
+
+    <script src="./figuras_f.js"></script>
+</body>
+</html>
