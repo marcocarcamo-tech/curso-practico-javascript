@@ -14,6 +14,8 @@ https://marcocarcamo-tech.github.io/curso-practico-javascript/calculadora-figura
 
 ## Taller #2: porcentajes y descuentos
 
+https://marcocarcamo-tech.github.io/curso-practico-javascript/calculadora-descuento/descuento.html
+
 -Primer paso: definir las fórmulas
 -Segundo paso:implementar las fórmulas en JavaScript
 -Tercer paso: crear funciones
